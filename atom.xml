@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://junxingzhi.github.io/"/>
-  <updated>2018-11-15T09:44:17.899Z</updated>
+  <updated>2018-12-03T05:14:52.912Z</updated>
   <id>http://junxingzhi.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PPPoe拨号无法使用ShadowsocksR(SSR)的解决办法</title>
+    <link href="http://junxingzhi.github.io/2018/12/03/PPPoe%E6%8B%A8%E5%8F%B7%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8ShadowsocksR-SSR-%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://junxingzhi.github.io/2018/12/03/PPPoe拨号无法使用ShadowsocksR-SSR-的解决办法/</id>
+    <published>2018-12-03T05:09:00.000Z</published>
+    <updated>2018-12-03T05:14:52.912Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>最近在使用ssr的过程中发现在无线wifi模式下，代理能够运行，而使用pppoe拨号后就不能使用。检查拨号的代理设置都没有问题，经过查找发现导致失败的原因在于不能将拨号的名称设置为中文</p></blockquote><h3 id="为解决上述办法需做以下设置："><a href="#为解决上述办法需做以下设置：" class="headerlink" title="为解决上述办法需做以下设置："></a>为解决上述办法需做以下设置：</h3><ul><li>1、打开宽带高级设置，将宽带连接设置为英文名；</li><li>2、修改VPN类型为自动；</li><li>3、点击保存，再点返回，将VPN代理属性改为自动；</li><li>4、修改拨号连接名称后记得重新启动ssr。<br><img src="https://upload.cc/i1/2018/12/03/dZme4M.png" alt="步骤一"><br><img src="https://upload.cc/i1/2018/12/03/ujTef8.png" alt="步骤二"><br><img src="https://upload.cc/i1/2018/12/03/r6umwa.png" alt="步骤三"></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;最近在使用ssr的过程中发现在无线wifi模式下，代理能够运行，而使用pppoe拨号后就不能使用。检查拨号的代理设置都没有问题，经过查找发现导致失败的原因在于不能将拨号的名称设置为中文&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;为解决上述
+      
+    
+    </summary>
+    
+      <category term="Windows" scheme="http://junxingzhi.github.io/categories/Windows/"/>
+    
+    
+      <category term="win10" scheme="http://junxingzhi.github.io/tags/win10/"/>
+    
+      <category term="SSR" scheme="http://junxingzhi.github.io/tags/SSR/"/>
+    
+  </entry>
   
   <entry>
     <title>Chrome使用评测</title>
